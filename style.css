@@ -1,0 +1,200 @@
+body {    
+    background-color: rgb(0, 0, 0); 
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 800px;
+    height: 25px;
+    margin-left: 350px;
+}
+
+audio::-webkit-media-controls-enclosure {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.song{
+    display: block;
+    position: absolute;
+    bottom: 370px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.hemely{    
+    top: 120px;
+    left: 40px;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    height:150px;
+    border-radius: 100%;
+    border: rgba(30, 30, 30, 0.532) solid 5px;
+    transition: 0.5s;
+}
+
+.hemely:hover{
+    opacity: 0.7;
+    left: 43px;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transition: 0.5s;
+    width: 145px;
+    height: 145px;
+    border-radius: 100%;
+    box-shadow:0 0 15px 5px  rgba(151, 151, 151, 0.774);
+}
+
+header img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-image: url(https://64.media.tumblr.com/59aa2dd779b6b2afb8d55d33ea41d46d/5d1b496c1a3489c2-35/s500x750/c7296c076f28f35dc12301f470e9289c2a73c34e.jpg);
+}
+
+
+.fon {    
+    display: block;
+    position:absolute;
+    z-index: 1;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    transition: 0.3s;
+    height: 260px;
+    width: 1590px;
+    text-decoration: none;
+    border-radius: 0px 0px 100px 100px;
+
+}
+
+.fon {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/663caea3-2539-4281-aa50-65034133ff54/dbz7fua-ebdf04c6-2247-44dc-aa98-93a5be41770a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2M2NhZWEzLTI1MzktNDI4MS1hYTUwLTY1MDM0MTMzZmY1NFwvZGJ6N2Z1YS1lYmRmMDRjNi0yMjQ3LTQ0ZGMtYWE5OC05M2E1YmU0MTc3MGEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KnvlMPxuVqTMzAD1D3fY6THsTkyBVIcVrPutJ1wFDi8');
+}
+
+.name{
+    display: block;
+    z-index: 3;
+    font-family:fangsong  ;
+    color: rgba(0, 0, 0, 0.705);
+    background-image: url('https://animesher.com/orig/1/138/1387/13873/animesher.com_snow-night-winter-1387361.gif');
+    padding-right: 50px;
+    padding-left: 30px;
+    border:rgb(145, 145, 145) solid 5px; 
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top:215px;
+    left: 250px;
+    font-size: 40px;
+    border-radius: 20px;
+    background-color:white;
+    transition: 0.7s;
+}
+
+.name:HOVER{
+    opacity: 0.5;
+    display: block;
+    z-index: 4;
+    font-family:fangsong  ;
+    padding-right: 50px;
+    padding-left: 30px;
+    transition: 1.7s;
+    position: absolute;
+    top:215px;
+    left: 250px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.tg{
+    display: block;
+    z-index: 3;
+    transition: 0.3s;
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 19px;
+    right: 40px;
+}
+
+.tg:hover{
+    display: block;
+    z-index: 3;
+    opacity: 0.7;
+    transition: 0.3s;
+    position: fixed;
+}
+
+.github{
+    display: block;
+    z-index: 3;
+    transition: 0.3s;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom:20px;
+    right: 120px;
+}
+
+.github:hover{
+    display: block;
+    z-index: 3;
+    transition: 0.3s;
+    position: fixed;
+    opacity: 0.7;
+}
+P{
+    display: block;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+p:hover{
+    opacity: 1.0;
+}
+
+.knopka{
+    display: block;
+    position: absolute;
+    transition: 1.0s;    
+    top: 500px;  
+    width: 500px;    
+    background-color: rgba(255, 255, 255, 0.583);    
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.knopka:HOVER{
+    display: block;
+    transition: 1.0s;
+    position: absolute;    
+    top: 510px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: rgb(8, 8, 8) solid 1px;
+}    
+
+.knp{
+   margin: 500px;
+}
+
