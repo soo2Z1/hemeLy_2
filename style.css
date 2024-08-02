@@ -1,10 +1,10 @@
 body {    
     background-color: rgb(0, 0, 0); 
     overflow-x: hidden;
+    overflow-y: hidden;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-
 }
 
 audio {
